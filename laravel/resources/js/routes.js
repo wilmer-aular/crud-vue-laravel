@@ -17,7 +17,7 @@ export const routes = [
         components: Home,
     },
     {
-        name: "Contact",
+        name: "contact",
         path: "/contact",
         components: Contact,
     },
@@ -27,12 +27,12 @@ export const routes = [
         components: Show,
     },
     {
-        name: "createBlogs",
+        name: "createBlog",
         path: "/create",
         components: Create,
     },
     {
-        name: "updateBlogs",
+        name: "updateBlog",
         path: "/update/:id",
         components: Update,
     },

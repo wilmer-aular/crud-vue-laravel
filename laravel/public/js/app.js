@@ -2167,7 +2167,7 @@ var routes = [{
   path: "/",
   components: Home
 }, {
-  name: "Contact",
+  name: "contact",
   path: "/contact",
   components: Contact
 }, {
@@ -2175,11 +2175,11 @@ var routes = [{
   path: "/blogs",
   components: Show
 }, {
-  name: "createBlogs",
+  name: "createBlog",
   path: "/create",
   components: Create
 }, {
-  name: "updateBlogs",
+  name: "updateBlog",
   path: "/update/:id",
   components: Update
 }];
